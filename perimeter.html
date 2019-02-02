@@ -1,0 +1,38 @@
+<!--Javascript Assignment 2-->
+<!--Z1840901-->
+<!--Due date:1/31/2019 11:59PM-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>The area and perimeter app</title>
+    <script>
+        //Alert box for length
+        var length = prompt("Enter length of the rectangle");
+        length = parseFloat(length);
+        //Alert box for breadth
+        var breadth = prompt("Enter breadth of the rectangle");
+        breadth = parseFloat(breadth);
+        //Calculating perimeter
+        var perimeter = 2*(length+breadth);
+        perimeter = parseFloat(perimeter);
+        perimeter = perimeter.toFixed(2);
+        //Calculating area
+        var area = length*breadth;
+        area = parseFloat(area);
+        area = area.toFixed(2);
+        //Display information on a web page
+        document.write("<h1>The area and perimeter app</h1><br>");
+        document.write("Length = "+length+"<br>");
+        document.write("Breadth = "+breadth+"<br><br>");
+        document.write("Perimeter = "+perimeter+"<br>");
+        document.write("Area = "+area+"<br>");
+    </script>
+</head>
+<body>
+    <main>
+        <h3>Thanks for using the area and perimeter application</h3>
+    </main>
+</body>
+</html>
